@@ -14,7 +14,7 @@ Ce projet implémente un compilateur complet en **C + Flex + Bison** qui traduit
 - `generated/*.c` : sorties C générées par le compilateur.
 
 ## Grammaire (BNF simplifiée)
-
+abcc 
 ```bnf
 <program>      ::= "Algorithme" <ident> "Début" <stmt_list> "Fin"
 <stmt_list>    ::= <stmt_list> <stmt> | ε
